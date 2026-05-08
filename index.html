@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sepulka — Software studio, Bucharest</title>
+    <meta
+      name="description"
+      content="Sepulka is an independent software studio based in Bucharest, Romania. We build applications."
+    />
+    <meta name="color-scheme" content="dark" />
+    <meta name="theme-color" content="#0a0a0a" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%230a0a0a'/%3E%3Ctext x='50%25' y='66%25' text-anchor='middle' font-family='-apple-system, sans-serif' font-size='40' font-weight='500' fill='white' letter-spacing='-2'%3ES%3C/text%3E%3Ccircle cx='52' cy='14' r='4' fill='%2322c55e'/%3E%3C/svg%3E"
+    />
+    <link rel="preload" href="fonts/geist-latin.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="fonts/geist-mono-latin.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a href="/" class="brand" aria-label="Sepulka home">
+        <span class="brand-status" aria-hidden="true"></span>
+        <span class="brand-name">SEPULKA</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <p class="eyebrow">
+          <span class="tag" aria-hidden="true">[ 01 ]</span>
+          <span class="rule" aria-hidden="true"></span>
+          <span>Software studio</span>
+        </p>
+        <h1>
+          <span class="hero-line hero-line--1">Quietly building</span>
+          <span class="hero-line hero-line--2">applications<span class="punctum" aria-hidden="true">.</span></span>
+        </h1>
+        <p class="lede">
+          Sepulka is an independent studio building thoughtful
+          applications — focused, well-crafted, and useful.
+        </p>
+        <a class="cta" href="#contact">
+          <span class="cta-label">Get in touch</span>
+          <span class="cta-arrow" aria-hidden="true">→</span>
+        </a>
+      </section>
+
+      <section id="about" class="about">
+        <p class="section-label" aria-hidden="true">[ 02 ] · About</p>
+        <h2>About</h2>
+        <p class="about-lead">
+          Sepulka is an independent studio building applications. We take
+          a small number of projects and finish them well.
+        </p>
+
+        <p class="subhead" aria-hidden="true">// How we work</p>
+        <ol class="principles">
+          <li>
+            <span class="ord" aria-hidden="true">[ i ]</span>
+            <div class="principle-body">
+              <strong>Focus over volume.</strong>
+              <span>Fewer projects, fully owned.</span>
+            </div>
+          </li>
+          <li>
+            <span class="ord" aria-hidden="true">[ ii ]</span>
+            <div class="principle-body">
+              <strong>Care over speed.</strong>
+              <span>We'd rather ship later than ship sloppy.</span>
+            </div>
+          </li>
+          <li>
+            <span class="ord" aria-hidden="true">[ iii ]</span>
+            <div class="principle-body">
+              <strong>Long-term thinking.</strong>
+              <span>We build things we'll still want to maintain in five years.</span>
+            </div>
+          </li>
+        </ol>
+      </section>
+
+      <section id="contact" class="contact">
+        <p class="section-label" aria-hidden="true">[ 03 ] · Contact</p>
+        <h2>Contact</h2>
+        <p class="contact-intro">
+          For inquiries, partnerships, or support requests, please reach us at
+        </p>
+        <p class="contact-email">
+          <a href="mailto:contact@sepulka.cc">contact@sepulka.cc</a>
+        </p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-col">
+        <p class="footer-label" aria-hidden="true">// company</p>
+        <p class="legal-name">SEPULKA S.R.L.</p>
+        <p class="legal-meta">Registered office: Strada Nicolae Iorga, nr. 5, etaj 2, Sector 1, Bucuresti, Romania</p>
+        <p class="legal-meta">CUI: 50254340 · EUID: ROONRC.J2024012166402</p>
+        <p class="legal-meta">Subscribed and paid-up share capital: 200 RON</p>
+      </div>
+      <div class="footer-col footer-col--right">
+        <p class="footer-label" aria-hidden="true">// © <span id="year">2026</span></p>
+        <p class="copyright">All rights reserved.</p>
+        <p class="footer-links"><a href="privacy.html">Privacy</a></p>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById('year').textContent = String(new Date().getFullYear());
+    </script>
+  </body>
+</html>
