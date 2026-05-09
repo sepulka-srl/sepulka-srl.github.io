@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
+Disallow: /shoutparty/
 
 Sitemap: https://sepulka.cc/sitemap.xml
