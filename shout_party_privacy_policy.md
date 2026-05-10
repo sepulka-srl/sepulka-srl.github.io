@@ -34,7 +34,7 @@ Purpose: understand which game modes are popular and how long sessions last, so 
 Data collected when enabled:
 - Anonymous Firebase installation ID (a randomly generated identifier specific to this app on this device)
 - Device model, operating system version, app version, language, country (derived from IP at collection time)
-- In-app events such as screen views, game mode chosen, round completed, settings changed
+- In-app events: screen views, game mode chosen, round completed, game finished, share button tapped, consent choices saved, settings changed
 - We do **not** collect Android Advertising ID
 - We do **not** collect names, emails, or any identifier that could identify you personally
 
