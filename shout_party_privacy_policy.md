@@ -1,6 +1,6 @@
 # Privacy Policy — Shout Party
 
-**Last updated: 11 May 2026**
+**Last updated: 25 May 2026**
 
 ## Overview
 
@@ -34,7 +34,7 @@ Purpose: understand which game modes are popular and how long sessions last, so 
 Data collected when enabled:
 - Anonymous Firebase installation ID (a randomly generated identifier specific to this app on this device)
 - Device model, operating system version, app version, language, country (derived from IP at collection time)
-- In-app events: screen views, game mode chosen, round completed, game finished, share button tapped, consent choices saved, settings changed, word reported (when you tap "🚩 Report a word" — we receive only the word's ID, the dictionary language, the reason you selected, and the game mode; your free-text comment is sent only via your own email client and not through analytics)
+- In-app events: screen views, game mode chosen, round completed, game finished, share button tapped, consent choices saved, settings changed, word reported (when you tap "🚩 Report a word" — we receive only the word's ID, the dictionary language, the reason you selected, and the game mode; your free-text comment is sent only via your own email client and not through analytics), interest in upcoming word packs (when you tap the "Word Packs" preview tile in Setup — we record only the tap), and deck exhaustion (when you finish all words in the current rotation during a session — we record the game mode, the number of words seen, and how many difficulty or category filters were active; no word IDs)
 - We do **not** collect Android Advertising ID
 - We do **not** collect names, emails, or any identifier that could identify you personally
 
