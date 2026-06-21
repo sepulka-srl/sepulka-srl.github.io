@@ -39,7 +39,7 @@
     <main class="prose">
       <p class="section-label" aria-hidden="true">// privacy</p>
       <h1>Privacy policy</h1>
-      <p class="prose-meta">Last updated · 8 May 2026</p>
+      <p class="prose-meta">Last updated · 22 June 2026</p>
 
       <h2>Who we are</h2>
       <p>
@@ -64,9 +64,12 @@
 
       <h2>What we collect</h2>
       <p>
-        This site uses no cookies, no analytics, no tracking pixels, and
-        no contact forms. We do not collect personal data passively from
-        visitors.
+        This site uses no cookies, no tracking pixels, and no contact
+        forms. We use Cloudflare Web Analytics, a privacy-friendly,
+        cookieless analytics service that measures aggregate traffic
+        without using cookies or fingerprinting and without collecting
+        personal data. We do not otherwise collect personal data
+        passively from visitors.
       </p>
       <p>
         If you choose to email us, we receive your email address and the
@@ -114,10 +117,14 @@
 
       <h2>Third-party content on this site</h2>
       <p>
-        This page loads only resources served from sepulka.cc: HTML,
-        CSS, and self-hosted fonts. No third-party scripts, fonts,
-        images, or analytics are loaded; no personal data is transmitted
-        to any third party as a result of visiting this site.
+        This page loads HTML, CSS, and self-hosted fonts served from
+        sepulka.cc, and a single analytics script from Cloudflare
+        (<code>static.cloudflareinsights.com</code>). Cloudflare Web
+        Analytics is cookieless and does not collect personal data or
+        fingerprint visitors &mdash; see
+        <a href="https://www.cloudflare.com/web-analytics/" rel="noopener">cloudflare.com/web-analytics</a>.
+        Aside from this analytics beacon, no third-party scripts, fonts,
+        or images are loaded.
       </p>
 
       <h2>Changes</h2>
@@ -145,5 +152,8 @@
     <script>
       document.getElementById('year').textContent = String(new Date().getFullYear());
     </script>
+    <!-- Cloudflare Web Analytics -->
+    <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "c6c692d24de048818356c18ee62e4c32"}'></script>
+    <!-- End Cloudflare Web Analytics -->
   </body>
 </html>
