@@ -40,7 +40,7 @@
     <main class="prose">
       <p class="section-label" aria-hidden="true">// shout party / privacy</p>
       <h1>Privacy policy &mdash; Shout Party</h1>
-      <p class="prose-meta">Last updated · 25 May 2026</p>
+      <p class="prose-meta">Last updated · 4 October 2026</p>
 
       <h2>Overview</h2>
       <p>
@@ -69,6 +69,8 @@
         <li>Sound and haptic settings (on/off)</li>
         <li>Language preference</li>
         <li>Game history within the current session</li>
+        <li>Words you have reported, so they are not shown to you again</li>
+        <li>Which word packs you own (a copy of what Google Play reports, so the game works offline)</li>
         <li>Your privacy choices (which Firebase services you&rsquo;ve consented to)</li>
       </ul>
       <p>Uninstalling the app removes all of this.</p>
@@ -87,7 +89,7 @@
       <ul>
         <li>Anonymous Firebase installation ID (a randomly generated identifier specific to this app on this device)</li>
         <li>Device model, operating system version, app version, language, country (derived from IP at collection time)</li>
-        <li>In-app events: screen views, game mode chosen, round completed, game finished, share button tapped, consent choices saved, settings changed, word reported (when you tap &ldquo;&#128681; Report a word&rdquo; &mdash; we receive only the word&rsquo;s ID, the dictionary language, the reason you selected, and the game mode; your free-text comment is sent only via your own email client and not through analytics), interest in upcoming word packs (when you tap the &ldquo;Word Packs&rdquo; preview tile in Setup &mdash; we record only the tap), and deck exhaustion (when you finish all words in the current rotation during a session &mdash; we record the game mode, the number of words seen, and how many difficulty or category filters were active; no word IDs)</li>
+        <li>In-app events: screen views, game mode chosen, round completed, game finished, share button tapped, consent choices saved, settings changed, word reported (when you tap &ldquo;&#128681; Report a word&rdquo; &mdash; we receive only the word&rsquo;s ID, the dictionary language, the reason you selected, and the game mode; your free-text comment is sent only via your own email client and not through analytics), deck exhaustion (when you finish all words in the current rotation during a session &mdash; we record the game mode, the number of words seen, and how many difficulty or category filters were active; no word IDs), and word-pack activity: when the purchase dialog for a pack is opened, when you tap &ldquo;Buy&rdquo;, and when a purchase is completed (for each of these we record only which pack it was &mdash; never the price, the order number or anything about your Google account), plus, when a game starts, how many packs are switched on and whether the game uses pack words only</li>
         <li>We do <strong>not</strong> collect Android Advertising ID</li>
         <li>We do <strong>not</strong> collect names, emails, or any identifier that could identify you personally</li>
       </ul>
@@ -158,15 +160,18 @@
       <h2>Children</h2>
       <p>
         Shout Party is rated for ages 13 and above. We do not knowingly
-        collect data from children under 13. If you believe a child under
-        13 has used the app and you wish to delete any associated data,
-        contact <a href="mailto:privacy@sepulka.cc">privacy@sepulka.cc</a>.
+        collect data from children under 13. Purchases by minors require
+        the consent of a parent or guardian; Google Play offers
+        purchase-verification settings for this. If you believe a child
+        under 13 has used the app and you wish to delete any associated
+        data, contact <a href="mailto:privacy@sepulka.cc">privacy@sepulka.cc</a>.
       </p>
 
       <h2>Game content</h2>
       <p>
         The game dictionary contains approximately 1,500 words per
-        language across 29 languages. Words are reviewed before release.
+        language across 29 languages, and each optional word pack adds
+        about 300 more. Words are reviewed before release.
         If you encounter a word you find inappropriate, please contact
         <a href="mailto:privacy@sepulka.cc">privacy@sepulka.cc</a> with
         the word and language; we will review and may remove it from
@@ -174,12 +179,43 @@
       </p>
       <p>We are not liable for any distress caused by words in the game dictionary.</p>
 
-      <h2>In-app purchases (planned, not in v1.0)</h2>
+      <h2>In-app purchases</h2>
       <p>
-        Future versions may offer optional word pack purchases via Google
-        Play Billing. All payment processing is handled by Google. We do
-        not receive or store your payment details. We will update this
-        policy before enabling purchases.
+        Shout Party sells optional word packs through <strong>Google
+        Play Billing</strong>. This works whether or not you have opted
+        in to any Firebase service.
+      </p>
+      <ul>
+        <li>
+          <strong>Payment</strong> &mdash; handled entirely by Google. We
+          never receive or store your card number, bank details or any
+          other payment credentials.
+        </li>
+        <li>
+          <strong>On your device</strong> &mdash; the app asks Google
+          Play which packs your Google account owns and keeps a local
+          copy of that list so the packs work offline. The app does not
+          send this list to us; we operate no servers for the game.
+        </li>
+        <li>
+          <strong>Order records</strong> &mdash; as the publisher we can
+          see, in the Google Play Console, the orders made for our
+          products: the order number, the product, the price and taxes,
+          the date, the order status, and the buyer&rsquo;s country. We
+          use these records to handle refund requests and for accounting
+          and tax purposes. They do not include your name, email address
+          or payment details. If you email us about an order, we will
+          also have the email address and order number you send us.
+        </li>
+        <li>
+          <strong>Legal basis (GDPR)</strong> &mdash; performance of the
+          purchase contract, and our legal obligations under accounting
+          and tax law.
+        </li>
+      </ul>
+      <p>
+        Refunds are described in our
+        <a href="/shoutparty/refunds.html">Refund Policy</a>.
       </p>
 
       <h2>Third-party services</h2>
@@ -195,6 +231,11 @@
           <tr>
             <td>Google Play</td>
             <td>App distribution</td>
+            <td><a href="https://policies.google.com/privacy" rel="noopener">policies.google.com/privacy</a></td>
+          </tr>
+          <tr>
+            <td>Google Play Billing</td>
+            <td>Word-pack purchases</td>
             <td><a href="https://policies.google.com/privacy" rel="noopener">policies.google.com/privacy</a></td>
           </tr>
           <tr>
@@ -226,6 +267,8 @@
         </li>
         <li><strong>Crashlytics data (if you opt in)</strong> &mdash; retained for 90 days from the date of the crash.</li>
         <li><strong>Performance Monitoring data (if you opt in)</strong> &mdash; retained for 90 days.</li>
+        <li><strong>Order records for purchases</strong> &mdash; kept by Google in the Play Console, and by us where needed, for as long as accounting and tax law requires.</li>
+        <li><strong>Emails you send us</strong> &mdash; kept for as long as needed to handle your request and any follow-up.</li>
       </ul>
 
       <h2>Changes to this policy</h2>
