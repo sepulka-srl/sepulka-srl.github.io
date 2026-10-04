@@ -44,7 +44,7 @@ This mode is provided for entertainment only. We do not promote, facilitate, or 
 
 **What you get.** A purchased pack is licensed to you on the same terms as the App (Section 3); you do not acquire ownership of its content. It is tied to the Google account used for the purchase and is restored automatically on any Android device where that account is signed in to Google Play. You can also restore it from **Settings → Restore purchases**.
 
-**Refunds.** You may ask for a refund of any pack within 14 days of purchase, for any reason. The full terms are in our Refund Policy at <https://sepulka.cc/shoutparty/refunds.html>. A refunded pack is removed from your account.
+**Refunds.** You may ask for a refund of any pack within 7 days of purchase, for any reason. The full terms are in our Refund Policy at <https://sepulka.cc/shoutparty/refunds.html>. A refunded pack is removed from your account.
 
 **Availability.** We may change prices, add new packs, or stop selling a pack. If we stop selling a pack, people who already bought it keep it for as long as the App remains available.
 

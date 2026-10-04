@@ -91,7 +91,7 @@ Shout Party sells optional word packs through **Google Play Billing**. This work
 
 - **Payment** is handled entirely by Google. We never receive or store your card number, bank details or any other payment credentials.
 - **On your device**, the app asks Google Play which packs your Google account owns and keeps a local copy of that list so the packs work offline. The app does not send this list to us; we operate no servers for the game.
-- **Order records.** As the publisher we can see, in the Google Play Console, the orders made for our products: the order number, the product, the price and taxes, the date, the order status, and the buyer's country. We use these records to handle refund requests and for accounting and tax purposes. They do not include your name, email address or payment details. If you email us about an order, we will also have the email address and order number you send us.
+- **Order records.** As the publisher we can see, in the Google Play Console, the orders made for our products: the order number, the product, the price and taxes, the date, the order status, and the buyer's country. We use these records to handle refund requests and for accounting and tax purposes. They do not include your payment details. If you email us about an order, we will also have the email address and order number you send us.
 - **Legal basis (GDPR):** performance of the purchase contract, and our legal obligations under accounting and tax law.
 
 Refunds are described in our Refund Policy: <https://sepulka.cc/shoutparty/refunds.html>.

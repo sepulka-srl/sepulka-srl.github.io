@@ -14,9 +14,9 @@ Purchases are made through **Google Play**. Google processes the payment, charge
 
 ## 3. Your right to a refund
 
-**You can ask for a refund of any word pack within 14 days of buying it, for any reason.** You do not have to explain why.
+**You can ask for a refund of any word pack within 7 days of buying it, for any reason.** You do not have to explain why.
 
-This applies to everyone, wherever you live. It is at least as generous as the 14-day right of withdrawal under European Union consumer law and the 7-day right of regret under Brazilian consumer law.
+This applies to everyone, wherever you live, and comes on top of any rights you have under the consumer law of your country (see Section 7).
 
 When a pack is refunded, it is removed from your account and becomes locked in the App again.
 
@@ -34,9 +34,9 @@ When a pack is refunded, it is removed from your account and becomes locked in t
 
 We reply within 5 working days. Approved refunds are returned by Google Play to the original payment method; how long that takes depends on your payment provider.
 
-## 5. After 14 days
+## 5. After 7 days
 
-After 14 days we refund when something is actually wrong, for example:
+After 7 days we refund when something is actually wrong, for example:
 
 - the pack was charged but never unlocked, and "Restore purchases" in Settings does not fix it;
 - the pack does not work in your language as described;
