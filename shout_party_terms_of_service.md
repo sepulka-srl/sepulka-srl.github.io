@@ -104,7 +104,7 @@ These Terms are governed by and construed in accordance with the laws of **Roman
 
 Any dispute, controversy, or claim arising out of or relating to these Terms or the App shall be subject to the exclusive jurisdiction of the **competent courts of Bucharest, Romania**.
 
-If you are a consumer resident in the European Union, mandatory consumer protection rules of your country of residence apply and you may also bring proceedings before the competent courts of your place of residence. You may also use the European Commission's Online Dispute Resolution platform at <https://ec.europa.eu/consumers/odr>.
+If you are a consumer resident in the European Union, mandatory consumer protection rules of your country of residence apply and you may also bring proceedings before the competent courts of your place of residence.
 
 ## 15. Severability
 
